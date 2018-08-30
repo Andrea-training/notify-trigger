@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Publish Event') {
       steps {
-        publishEvent simpleEvent('acruzs11-Event')
+        publishEvent simpleEvent('JMAPPALAEvent')
       }
     }
   }
